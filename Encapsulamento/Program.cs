@@ -14,12 +14,14 @@ namespace Course
         {
             _quantidade = 5;
         }
+
         public Produto(string nome, double preco, int quantidade)
         {
             _nome = nome;
             _preco = preco;
             _quantidade = quantidade;
         }
+
         public Produto(string nome, double preco)
         {
             _nome = nome;
@@ -32,8 +34,7 @@ namespace Course
             set
             {
                 if (value != null && value.Length > 1)
-                    _nome = value;
-            }
+                    _nome = value;            }
         }
 
        // public
